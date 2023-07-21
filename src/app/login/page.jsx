@@ -7,11 +7,11 @@ const LoginPage = () => {
         <img
           src="/login.png"
           alt="loginPhoto"
-          className="w-[18rem] rounded-lg"
+          className="hidden md:block w-[18rem] rounded-lg"
         />
       </div>
 
-      <div className="w-[38%]">
+      <div className="w-[99%] md:w-[38%]">
         <div className=" sm:mx-auto sm:w-full sm:max-w-md">
           <div className=" py-8 px-4  sm:px-10">
             <div className="mb-3">
